@@ -14,5 +14,11 @@ r3 = float(input('Digite o comprimento r3: '))
 
 if r1 < r2 + r3 and r1 < r3 + r2 and r3 < r2 + r1 and r2 < r1 + r3:
     print('Estes comprimentos podem formar um triangulo')
+    if r1 == r2 == r3:
+        print('ESQUILATERO')
+    elif r1 != r2 != r3 != r1:
+        print('ESCALENO')
+    else:
+        print('ISOSCELES')
 else:
     print('Não é um triângulo ')
