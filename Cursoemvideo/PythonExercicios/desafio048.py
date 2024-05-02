@@ -1,3 +1,4 @@
+#SOMA IMPARES MULTIPLOS DE 3
 co = 0
 cont = 0
 
